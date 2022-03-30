@@ -17,3 +17,23 @@ d:\Лисенок\РК-технологии\Мои вспомогатель ны
 d:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ref\ChangeImgInHtml.dll
 d:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.pdb
 d:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.genruntimeconfig.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.exe
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.deps.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.runtimeconfig.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.runtimeconfig.dev.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ref\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\net5.0-windows\ChangeImgInHtml.pdb
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.csproj.AssemblyReference.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.Form1.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.FormSettings.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.Properties.Resources.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.csproj.GenerateResource.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.GeneratedMSBuildEditorConfig.editorconfig
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.AssemblyInfoInputs.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.AssemblyInfo.cs
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.csproj.CoreCompileInputs.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ref\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.pdb
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\net5.0-windows\ChangeImgInHtml.genruntimeconfig.cache

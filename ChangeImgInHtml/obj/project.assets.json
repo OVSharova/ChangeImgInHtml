@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Лисенок\\РК-технологии\\Мои вспомогатель ные программки\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
+      "projectUniqueName": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
       "projectName": "ChangeImgInHtml",
-      "projectPath": "d:\\Лисенок\\РК-технологии\\Мои вспомогатель ные программки\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
+      "projectPath": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
       "packagesPath": "C:\\Users\\olyaa\\.nuget\\packages\\",
-      "outputPath": "d:\\Лисенок\\РК-технологии\\Мои вспомогатель ные программки\\ChangeImgInHtml\\ChangeImgInHtml\\obj\\",
+      "outputPath": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -16,3 +16,21 @@ D:\Лисенок\РК-технологии\Мои вспомогатель ны
 D:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.csproj.AssemblyReference.cache
 d:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.FormSettings.resources
 d:\Лисенок\РК-технологии\Мои вспомогатель ные программки\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.Properties.Resources.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.exe
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.deps.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.runtimeconfig.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.runtimeconfig.dev.json
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\bin\Release\netcoreapp3.1\ChangeImgInHtml.pdb
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.csproj.AssemblyReference.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.Form1.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.FormSettings.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.Properties.Resources.resources
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.csproj.GenerateResource.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.GeneratedMSBuildEditorConfig.editorconfig
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.AssemblyInfoInputs.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.AssemblyInfo.cs
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.csproj.CoreCompileInputs.cache
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.dll
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.pdb
+d:\RepositoriesRKT\ChangeImgInHtml\ChangeImgInHtml\obj\Release\netcoreapp3.1\ChangeImgInHtml.genruntimeconfig.cache

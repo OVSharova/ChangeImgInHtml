@@ -15,6 +15,7 @@ namespace ChangeImgInHtml
     {
         ImgChange imgChange;
         BindingSource bs;
+        GeneralImg generalImg;
         public Form1()
         {
             InitializeComponent();
@@ -37,7 +38,7 @@ namespace ChangeImgInHtml
                 this.pathFile.Text = fileDialog.FileName;
         }
 
-        private void bетReplaceImgToDiv_Click(object sender, EventArgs e)
+        private void btnReplaceImgToDiv_Click(object sender, EventArgs e)
         {
             if (!validChangeForImg()) return;
             this.listChanges.Text += "ЗАМЕНА ТЕГОВ img НА div\r\n";
@@ -52,7 +53,7 @@ namespace ChangeImgInHtml
             return !string.IsNullOrEmpty(pathDirectory.Text) && !string.IsNullOrEmpty(pathFile.Text);
         }
 
-        private void bетReplaceImgToDivWithA_Click(object sender, EventArgs e)
+        private void btnReplaceImgToDivWithA_Click(object sender, EventArgs e)
         {
             if (!validChangeForImg()) return;
             this.listChanges.Text += "ЗАМЕНА ТЕГОВ img НА div С ВСПЛЫВАЮЩИМИ ПОДСКАЗКАМИ\r\n";
@@ -102,6 +103,22 @@ namespace ChangeImgInHtml
         {
             FormSettings formSettings = new FormSettings();
             formSettings.ShowDialog();
+        }
+
+        private void linksReplacementSrc_Click(object sender, EventArgs e)
+        {
+            if (generalImg == null)
+                generalImg = new GeneralImg(tbPngPath.Text);
+            generalImg.ChengeLinks(pathDirectory.Text);
+            listChanges.Text += generalImg.LogList;
+        }
+
+        private void filesDeliteGrneralFiles_Click(object sender, EventArgs e)
+        {
+            if (generalImg == null)
+                generalImg = new GeneralImg(tbPngPath.Text);
+            generalImg.DelteFiles(pathDirectory.Text);
+            listChanges.Text += generalImg.LogList;
         }
     }
 }

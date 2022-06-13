@@ -73,10 +73,9 @@ namespace ChangeImgInHtml
             {
                 this.withTip = withTip;
                 string fileText;
-            this.currentLine = 1;
+                this.currentLine = 1;
                 foreach (string file in this.files)
-                {
-                    
+                {                    
                     fileText = File.ReadAllText(file);
                     fileText = AddCssLink(fileText);
                     currentFile = file.Substring(pathName.Length);
@@ -88,9 +87,7 @@ namespace ChangeImgInHtml
                         }
                     }
                     File.WriteAllText(file, fileText, Encoding.UTF8);
-
-                }
-                
+                }                
                 return true;
             }
             catch
@@ -106,7 +103,7 @@ namespace ChangeImgInHtml
             {
                 if (text.IndexOf(this.strLinkCss) != -1)
                 {
-                    this.LogList +="" + this.currentLine + ".\tВ файле " + this.currentFile + " уже есть ссылка на css для sprite\r\n";
+                   // this.LogList +="" + this.currentLine + ".\tВ файле " + this.currentFile + " уже есть ссылка на css для sprite\r\n";
                     this.currentLine++;
                     return text;
                 }
@@ -146,7 +143,7 @@ namespace ChangeImgInHtml
         {
             try
             {
-                this.currentLine =1;
+                this.currentLine = 1;
                 string[] imgs;
                 string spriteDirectory = fileCssPath.Substring(0, fileCssPath.LastIndexOf('\\'));
                 foreach (GroupClasses gr in listImages)
@@ -180,7 +177,7 @@ namespace ChangeImgInHtml
         }
         private string PastDivsToFile(string text, ImgVal img, string groupName)
         {
-            int index = text.IndexOf("/" + img.FileName), beginindex, endIndex;
+            int index = text.IndexOf("/" + img.FileName), beginindex, endIndex; 
             string strDiv = "<div class = \"" + groupName +" " + img.ClassName + "\"></div>";
             while (index >-1)
             {

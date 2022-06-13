@@ -159,15 +159,15 @@ namespace ChangeImgInHtml
 
         Fit growNode(int w, int h)
         {
-            bool canGrowDown = (w <= root.X);
+            bool canGrowDown = (w <= root.Width);
             bool canGrowRight = (h <= root.Height);
 
-            bool shouldGrowRight = canGrowRight && (root.Height >= (root.X + w)); // attempt to keep square-ish by growing right when height is much greater than width
+            bool shouldGrowRight = canGrowRight && (root.Height >= (root.Width + w)); // attempt to keep square-ish by growing right when height is much greater than width
             bool shouldGrowDown = canGrowDown && (root.Width >= (root.Height + h)); // attempt to keep square-ish by growing down  when width  is much greater than height
 
-            if (shouldGrowDown)
+            if (shouldGrowRight)
                 return growRight(w, h);
-            else if (shouldGrowRight)
+            else if (shouldGrowDown)
                 return growDown(w, h);
             else if (canGrowRight)
                 return growRight(w, h);

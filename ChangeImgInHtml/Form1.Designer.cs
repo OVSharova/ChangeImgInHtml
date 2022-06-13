@@ -30,9 +30,6 @@ namespace ChangeImgInHtml
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.bетReplaceImgToDiv = new System.Windows.Forms.Button();
-            this.btnImgFiles = new System.Windows.Forms.Button();
-            this.bетReplaceImgToDivWithA = new System.Windows.Forms.Button();
             this.pathDirectory = new System.Windows.Forms.TextBox();
             this.pathFile = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,39 +47,18 @@ namespace ChangeImgInHtml
             this.label5 = new System.Windows.Forms.Label();
             this.btnSettings = new System.Windows.Forms.Button();
             this.errPngPath = new System.Windows.Forms.Label();
-            this.btnCreateSprite = new System.Windows.Forms.Button();
             this.listChanges = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.аToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filesImgFiles = new System.Windows.Forms.ToolStripMenuItem();
+            this.filesCreateSprite = new System.Windows.Forms.ToolStripMenuItem();
+            this.links = new System.Windows.Forms.ToolStripMenuItem();
+            this.linksReplaceImgToDiv = new System.Windows.Forms.ToolStripMenuItem();
+            this.linksReplaceImgToDivWithA = new System.Windows.Forms.ToolStripMenuItem();
+            this.linksReplacementSrc = new System.Windows.Forms.ToolStripMenuItem();
+            this.filesDeliteGrneralFiles = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // bетReplaceImgToDiv
-            // 
-            this.bетReplaceImgToDiv.Location = new System.Drawing.Point(12, 282);
-            this.bетReplaceImgToDiv.Name = "bетReplaceImgToDiv";
-            this.bетReplaceImgToDiv.Size = new System.Drawing.Size(223, 60);
-            this.bетReplaceImgToDiv.TabIndex = 0;
-            this.bетReplaceImgToDiv.Text = "Замена img  на div";
-            this.bетReplaceImgToDiv.UseVisualStyleBackColor = true;
-            this.bетReplaceImgToDiv.Click += new System.EventHandler(this.bетReplaceImgToDiv_Click);
-            // 
-            // btnImgFiles
-            // 
-            this.btnImgFiles.Location = new System.Drawing.Point(12, 404);
-            this.btnImgFiles.Name = "btnImgFiles";
-            this.btnImgFiles.Size = new System.Drawing.Size(223, 60);
-            this.btnImgFiles.TabIndex = 2;
-            this.btnImgFiles.Text = "удаление совпадающих файлов";
-            this.btnImgFiles.UseVisualStyleBackColor = true;
-            this.btnImgFiles.Click += new System.EventHandler(this.btnImgFiles_Click);
-            // 
-            // bетReplaceImgToDivWithA
-            // 
-            this.bетReplaceImgToDivWithA.Location = new System.Drawing.Point(12, 343);
-            this.bетReplaceImgToDivWithA.Name = "bетReplaceImgToDivWithA";
-            this.bетReplaceImgToDivWithA.Size = new System.Drawing.Size(223, 60);
-            this.bетReplaceImgToDivWithA.TabIndex = 3;
-            this.bетReplaceImgToDivWithA.Text = "Замена img  на div c подсказкой";
-            this.bетReplaceImgToDivWithA.UseVisualStyleBackColor = true;
-            this.bетReplaceImgToDivWithA.Click += new System.EventHandler(this.bетReplaceImgToDivWithA_Click);
             // 
             // pathDirectory
             // 
@@ -212,7 +188,7 @@ namespace ChangeImgInHtml
             // 
             // btnPngPath
             // 
-            this.btnPngPath.Location = new System.Drawing.Point(680, 42);
+            this.btnPngPath.Location = new System.Drawing.Point(679, 42);
             this.btnPngPath.Name = "btnPngPath";
             this.btnPngPath.Size = new System.Drawing.Size(38, 29);
             this.btnPngPath.TabIndex = 19;
@@ -252,24 +228,88 @@ namespace ChangeImgInHtml
             this.errPngPath.Text = "Необходимо указать папку с изображениями";
             this.errPngPath.Visible = false;
             // 
-            // btnCreateSprite
-            // 
-            this.btnCreateSprite.Location = new System.Drawing.Point(12, 465);
-            this.btnCreateSprite.Name = "btnCreateSprite";
-            this.btnCreateSprite.Size = new System.Drawing.Size(223, 60);
-            this.btnCreateSprite.TabIndex = 20;
-            this.btnCreateSprite.Text = "Создать спрайт";
-            this.btnCreateSprite.UseVisualStyleBackColor = true;
-            this.btnCreateSprite.Click += new System.EventHandler(this.btnCreateSprite_Click);
-            // 
             // listChanges
             // 
-            this.listChanges.Location = new System.Drawing.Point(256, 282);
+            this.listChanges.Location = new System.Drawing.Point(12, 267);
             this.listChanges.Name = "listChanges";
             this.listChanges.ReadOnly = true;
-            this.listChanges.Size = new System.Drawing.Size(487, 243);
+            this.listChanges.Size = new System.Drawing.Size(731, 266);
             this.listChanges.TabIndex = 23;
             this.listChanges.Text = "";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.аToolStripMenuItem,
+            this.links});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(755, 28);
+            this.menuStrip1.TabIndex = 24;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // аToolStripMenuItem
+            // 
+            this.аToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.filesImgFiles,
+            this.filesCreateSprite,
+            this.filesDeliteGrneralFiles});
+            this.аToolStripMenuItem.Name = "аToolStripMenuItem";
+            this.аToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.аToolStripMenuItem.Text = "Files";
+            // 
+            // filesImgFiles
+            // 
+            this.filesImgFiles.Name = "filesImgFiles";
+            this.filesImgFiles.Size = new System.Drawing.Size(316, 26);
+            this.filesImgFiles.Text = "Удаление совпадающих файлов";
+            this.filesImgFiles.Click += new System.EventHandler(this.btnImgFiles_Click);
+            // 
+            // filesCreateSprite
+            // 
+            this.filesCreateSprite.Name = "filesCreateSprite";
+            this.filesCreateSprite.Size = new System.Drawing.Size(316, 26);
+            this.filesCreateSprite.Text = "Создать спрайт";
+            this.filesCreateSprite.Click += new System.EventHandler(this.btnCreateSprite_Click);
+            // 
+            // links
+            // 
+            this.links.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.linksReplaceImgToDiv,
+            this.linksReplaceImgToDivWithA,
+            this.linksReplacementSrc});
+            this.links.Name = "links";
+            this.links.Size = new System.Drawing.Size(55, 24);
+            this.links.Text = "Links";
+            // 
+            // linksReplaceImgToDiv
+            // 
+            this.linksReplaceImgToDiv.Name = "linksReplaceImgToDiv";
+            this.linksReplaceImgToDiv.Size = new System.Drawing.Size(356, 26);
+            this.linksReplaceImgToDiv.Text = "Замена img  на div";
+            this.linksReplaceImgToDiv.Click += new System.EventHandler(this.btnReplaceImgToDiv_Click);
+            // 
+            // linksReplaceImgToDivWithA
+            // 
+            this.linksReplaceImgToDivWithA.Name = "linksReplaceImgToDivWithA";
+            this.linksReplaceImgToDivWithA.Size = new System.Drawing.Size(356, 26);
+            this.linksReplaceImgToDivWithA.Text = "Замена img  на div c подсказкой";
+            this.linksReplaceImgToDivWithA.Click += new System.EventHandler(this.btnReplaceImgToDivWithA_Click);
+            // 
+            // linksReplacementSrc
+            // 
+            this.linksReplacementSrc.Name = "linksReplacementSrc";
+            this.linksReplacementSrc.Size = new System.Drawing.Size(356, 26);
+            this.linksReplacementSrc.Text = "Замена адресов общих изображений";
+            this.linksReplacementSrc.Click += new System.EventHandler(this.linksReplacementSrc_Click);
+            // 
+            // filesDeliteGrneralFiles
+            // 
+            this.filesDeliteGrneralFiles.Name = "filesDeliteGrneralFiles";
+            this.filesDeliteGrneralFiles.Size = new System.Drawing.Size(316, 26);
+            this.filesDeliteGrneralFiles.Text = "Удаление общих файлов";
+            this.filesDeliteGrneralFiles.Click += new System.EventHandler(this.filesDeliteGrneralFiles_Click);
             // 
             // Form1
             // 
@@ -280,7 +320,6 @@ namespace ChangeImgInHtml
             this.Controls.Add(this.listChanges);
             this.Controls.Add(this.errPngPath);
             this.Controls.Add(this.btnSettings);
-            this.Controls.Add(this.btnCreateSprite);
             this.Controls.Add(this.tbPngPath);
             this.Controls.Add(this.btnPngPath);
             this.Controls.Add(this.label5);
@@ -296,21 +335,18 @@ namespace ChangeImgInHtml
             this.Controls.Add(this.textBoxStyle);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.bетReplaceImgToDivWithA);
-            this.Controls.Add(this.btnImgFiles);
-            this.Controls.Add(this.bетReplaceImgToDiv);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Работа с изображениями";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button bетReplaceImgToDiv;
-        private System.Windows.Forms.Button btnImgFiles;
-        private System.Windows.Forms.Button bетReplaceImgToDivWithA;
         private System.Windows.Forms.TextBox pathDirectory;
         private System.Windows.Forms.TextBox pathFile;
         private System.Windows.Forms.Label label1;
@@ -328,8 +364,16 @@ namespace ChangeImgInHtml
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Label errPngPath;
-        private System.Windows.Forms.Button btnCreateSprite;
         private System.Windows.Forms.RichTextBox listChanges;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem аToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem links;
+        private System.Windows.Forms.ToolStripMenuItem linksReplaceImgToDiv;
+        private System.Windows.Forms.ToolStripMenuItem filesImgFiles;
+        private System.Windows.Forms.ToolStripMenuItem filesCreateSprite;
+        private System.Windows.Forms.ToolStripMenuItem linksReplaceImgToDivWithA;
+        private System.Windows.Forms.ToolStripMenuItem linksReplacementSrc;
+        private System.Windows.Forms.ToolStripMenuItem filesDeliteGrneralFiles;
     }
 }
 

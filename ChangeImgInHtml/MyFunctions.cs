@@ -12,10 +12,12 @@ namespace ChangeImgInHtml
         {
             List<GroupClasses> listClasses = new List<GroupClasses>();
             string textCssFile= File.ReadAllText(fileName),str;
-            int begintIndex = textCssFile.IndexOf("\n.")+2,
-                endIndex = textCssFile.IndexOf('{',begintIndex);
+            int begintIndex = textCssFile.IndexOf("@")+1,
+                endIndex = textCssFile.IndexOf('\n',begintIndex);
+            begintIndex = textCssFile.IndexOf(".", endIndex) + 1;
+            endIndex = textCssFile.IndexOf('{', begintIndex);
             GroupClasses gr = new GroupClasses(string.Empty);
-            while (begintIndex >1)
+            while (begintIndex >0)
             {
                 str = textCssFile.Substring(begintIndex, endIndex - begintIndex).Trim();
                 if (str.IndexOf('-') == -1)
@@ -25,13 +27,25 @@ namespace ChangeImgInHtml
                 }
                 else
                     gr.Add(str);
-                begintIndex = textCssFile.IndexOf("\n.", endIndex) + 2;
+                begintIndex = textCssFile.IndexOf(".", endIndex) + 1;
                 endIndex = textCssFile.IndexOf('{', begintIndex);
             }
             if (!gr.IsEmpty()) listClasses.Add(gr);
             return listClasses;
         }
+        public static string[] CreateListFiles(string dirPath)
+        {
+            
+            string[] list = Directory.GetFiles(dirPath);
+            for(int i = 0; i<list.Length;i++)
+            {
+                list[i] = list[i].Substring(dirPath.Length);
+            }
 
+            return list;
+        }
+
+       
         public static string CreateSprites(string path)
         {
             string[] paths = Directory.GetDirectories(path);

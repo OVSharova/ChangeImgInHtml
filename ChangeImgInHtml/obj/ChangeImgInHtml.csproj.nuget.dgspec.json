@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj": {}
+    "D:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj": {}
   },
   "projects": {
-    "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj": {
+    "D:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
+        "projectUniqueName": "D:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
         "projectName": "ChangeImgInHtml",
-        "projectPath": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
+        "projectPath": "D:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\ChangeImgInHtml.csproj",
         "packagesPath": "C:\\Users\\olyaa\\.nuget\\packages\\",
-        "outputPath": "d:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\obj\\",
+        "outputPath": "D:\\RepositoriesRKT\\ChangeImgInHtml\\ChangeImgInHtml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
